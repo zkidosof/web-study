@@ -1,0 +1,30 @@
+* {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}/* 전체 폰트를 정할떄떄 *을 씀씀 */
+  
+#jumbotron{
+    margin-top: 30px;/* 위에서 떨구기기 */
+    text-align: center; /* 가운대 정렬렬 */
+}
+
+body{
+    background-color: black;
+}
+
+#jumbotron {
+    background-color: white !important;  /* 배경 흰색 */
+    color: black !important;  /* 글씨 검정 */
+    padding: 2rem;  /* 내부 여백 */
+    border-radius: 10px;  /* 모서리 둥글게 */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);  /* 부드러운 그림자 */
+}
+
+#review-button{
+    width: 100%;
+}
+
+.card-group{
+    margin-top: 30px;
+}
